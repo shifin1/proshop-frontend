@@ -1,0 +1,95 @@
+main {
+  min-height: 70vh;
+  padding: 3vh 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.product-title {
+  font-weight: bold;
+}
+
+.rating span {
+  margin: 0.1rem 0;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card-image {
+  margin-bottom: 1.5vh;
+}
+
+.steps {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: small;
+}
+
+/* carousel */
+
+.carousel-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.product-carousel {
+  background-color: rgba(3, 0, 0, 0.87);
+  width: 60vw;
+  height: 40vh;
+  margin-bottom: 1rem;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h3 {
+  color: white;
+  font-style: normal;
+  font-size: medium;
+}
+
+.carousel img {
+  height: 150px;
+  padding: 30px;
+  margin: 70px auto;
+  border-radius: 50%;
+}
+
+.carousel a {
+  margin: 0, auto;
+}
